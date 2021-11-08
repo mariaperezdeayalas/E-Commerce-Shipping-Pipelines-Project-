@@ -1,4 +1,9 @@
 
+import pandas as pd
+
+def load_csv():
+    return pd.read_csv("data/Train.csv", encoding = "ISO-8859-1")
+
 def percentage_range(x):
     if x > 0 and x <= 20:
         return '(0% - 20%)'
