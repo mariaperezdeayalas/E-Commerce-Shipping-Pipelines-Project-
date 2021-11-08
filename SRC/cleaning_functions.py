@@ -11,4 +11,15 @@ def percentage_range(x):
     else:
         return '(81% - 100%)'
 
-        
+
+def loyal_customer(x):
+    if x < 5:
+        return 'Not Loyal'
+    else:
+        return 'Loyal'
+
+def customer_rating(x):
+    if x < 4:
+        return 'Rating 1 - 3'
+    else:
+        return 'Rating 4 - 5'
