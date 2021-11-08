@@ -1,5 +1,5 @@
 .env
-__pycache__
-.ipynb_checkpoints
-
+SRC.__pycache__
+Notebooks.ipynb_checkpoints
+.DS_Store
 
